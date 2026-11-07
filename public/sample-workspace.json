@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "name": "A slow Saturday in the neighborhood",
+  "start": "begin",
+  "scenes": [
+    {
+      "id": "begin",
+      "title": "A free morning",
+      "body": "The market is opening, the river path is quiet, and there is a little time before lunch. Where would you like to begin?",
+      "choices": [
+        {
+          "id": "river-choice",
+          "label": "Take the river path",
+          "to": "river"
+        },
+        {
+          "id": "market-choice",
+          "label": "Visit the little market",
+          "to": "market"
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "title": "Beside the water",
+      "body": "A bench catches the morning sun. Farther along, a footbridge leads toward a community garden.",
+      "choices": [
+        {
+          "id": "garden-choice",
+          "label": "Walk to the garden",
+          "to": "garden"
+        },
+        {
+          "id": "bench-choice",
+          "label": "Stay with a book",
+          "to": "book"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "A few useful things",
+      "body": "Someone is selling fresh bread. A handwritten sign invites visitors to a shared garden after the market.",
+      "choices": [
+        {
+          "id": "shared-garden",
+          "label": "Follow the garden invitation",
+          "to": "garden"
+        },
+        {
+          "id": "home-choice",
+          "label": "Bring breakfast home",
+          "to": "home"
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "title": "A place to grow",
+      "body": "You help water a row of seedlings and meet someone new. A small morning becomes a good story to take home.",
+      "choices": []
+    },
+    {
+      "id": "book",
+      "title": "One quiet chapter",
+      "body": "You settle beside the river, read a chapter, and let the rest of the morning arrive slowly.",
+      "choices": []
+    },
+    {
+      "id": "home",
+      "title": "Breakfast at the table",
+      "body": "The bread is still warm. You open a window and make a little space for the day.",
+      "choices": []
+    }
+  ],
+  "provenance": {
+    "project": "vue-choice-path-studio",
+    "author": "CodeSculptor",
+    "marker": "CH-A646CBD9"
+  }
+}
